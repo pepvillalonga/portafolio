@@ -11,7 +11,6 @@ Este repositorio alberga el código de mi **portafolio personal**, una aplicaci�
 Este proyecto está desarrollado con un enfoque moderno para asegurar rendimiento y una gran experiencia de usuario:
 
 * **Framework Principal:** **React**
-* **Estilizado:** Ej: Tailwind CSS, Styled Components, SCSS
-* **Lenguaje:** Ej: JavaScript (ES6+), TypeScript
-* **Bundler/Herramienta de Construcción:** Ej: Vite, Webpack, Next.js
-* **Despliegue:** Ej: Vercel, Netlify, GitHub Pages
+* **Estilizado:** Ej: Tailwind CSS
+* **Lenguaje:** Ej: JavaScript, TypeScript
+* **Bundler/Herramienta de Construcción:** Ej: Vite, Next.js
