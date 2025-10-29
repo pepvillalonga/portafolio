@@ -11,16 +11,14 @@ const projects = [
 		link: "https://github.com/pepvillalonga/Katas",
 	},
 
-	/*
 	{
-		title: "Proyecto Angular",
+		title: "Proyecto Portafolio",
 		description:
-			"Aplicación web desarrollada con Angular como parte de mi formación. Incluye todas las prácticas realizadas durante el curso de Angular.",
-		tech: ["Angular", "TypeScript", "HTML5", "CSS3"],
-		link: null,
+			"Aqui esta el repositorio alberga el código de mi portafolio personal, una aplicación web construida con React para mostrar mis habilidades, experiencia y los proyectos más destacados en los que he trabajado.",
+		tech: ["React", "Tailwind CSS", "TypeScript", "HTML5", "CSS3", "Vite", "ESLint"],
+		link: "https://github.com/pepvillalonga/portafolio",
 	},
 
-	*/
 	{
 		title: "Visit Binissalem",
 		description:
