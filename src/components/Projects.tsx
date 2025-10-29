@@ -10,14 +10,17 @@ const projects = [
 		tech: ["Java", "Algoritmos"],
 		link: "https://github.com/pepvillalonga/Katas",
 	},
+
 	/*
-  {
-    title: "Proyecto Angular",
-    description: "Aplicación web desarrollada con Angular como parte de mi formación. Incluye todas las prácticas realizadas durante el curso de Angular.",
-    tech: ["Angular", "TypeScript", "HTML5", "CSS3"],
-    link: null,
-  },
-  */
+	{
+		title: "Proyecto Angular",
+		description:
+			"Aplicación web desarrollada con Angular como parte de mi formación. Incluye todas las prácticas realizadas durante el curso de Angular.",
+		tech: ["Angular", "TypeScript", "HTML5", "CSS3"],
+		link: null,
+	},
+
+	*/
 	{
 		title: "Visit Binissalem",
 		description:
@@ -32,9 +35,9 @@ const Projects = () => {
 		<section id="projects" className="py-20 px-6 bg-muted/30">
 			<div className="max-w-6xl mx-auto">
 				<h2 className="text-4xl font-bold mb-12 text-center text-foreground">Proyectos</h2>
-				<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+				<div className="flex flex-col md:flex-row md:justify-center gap-6">
 					{projects.map((project) => (
-						<Card key={project.title} className="flex flex-col">
+						<Card key={project.title} className="flex flex-col md:w-[320px]">
 							<CardHeader>
 								<CardTitle className="text-foreground">{project.title}</CardTitle>
 								<CardDescription>{project.description}</CardDescription>
