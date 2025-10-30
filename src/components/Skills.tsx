@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 const skills = [
 	{ category: "Frontend", items: ["JavaScript", "HTML5", "CSS3"] },
 	{ category: "Backend", items: ["PHP", "Java"] },
+	{ category: "Frameworks", items: ["Angular", "React"] },
 	{ category: "Databases", items: ["MongoDB", "MariaDB", "JSON"] },
 	{ category: "Tools", items: ["Git", "GitHub", "Synology NAS"] },
 ];
@@ -14,7 +15,7 @@ const Skills = () => {
 				<h2 className="text-4xl font-bold mb-12 text-center text-foreground">
 					Habilidades
 				</h2>
-				<div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+				<div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
 					{skills.map((skillGroup) => (
 						<Card key={skillGroup.category} className="p-6">
 							<h3 className="text-xl font-semibold mb-4 text-foreground">
