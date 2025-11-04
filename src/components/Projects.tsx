@@ -12,6 +12,14 @@ const projects = [
 	},
 
 	{
+		title: "Proyecto RolodexImporter",
+		description:
+			"Rolodex Importer es una aplicación Java de línea de comandos diseñada para facilitar la digitalización de contactos físicos.",
+		tech: ["Java"],
+		link: "https://github.com/pepvillalonga/RolodexImporter",
+	},
+
+	{
 		title: "Proyecto Portafolio",
 		description:
 			"Aqui esta el repositorio alberga el código de mi portafolio personal, una aplicación web construida con React para mostrar mis habilidades, experiencia y los proyectos más destacados en los que he trabajado.",
