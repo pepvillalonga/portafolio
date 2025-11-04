@@ -12,7 +12,7 @@ const projects = [
 	},
 
 	{
-		title: "Proyecto RolodexImporter",
+		title: "RolodexImporter",
 		description:
 			"Rolodex Importer es una aplicación Java de línea de comandos diseñada para facilitar la digitalización de contactos físicos.",
 		tech: ["Java"],
@@ -22,8 +22,8 @@ const projects = [
 	{
 		title: "Proyecto Portafolio",
 		description:
-			"Aqui esta el repositorio alberga el código de mi portafolio personal, una aplicación web construida con React para mostrar mis habilidades, experiencia y los proyectos más destacados en los que he trabajado.",
-		tech: ["React", "Tailwind CSS", "TypeScript", "HTML5", "CSS3", "Vite", "ESLint"],
+			"Aqui esta el repositorio alberga el código de mi portafolio personal, una aplicación web construida con React para mostrar mis habilidades, experiencia y los proyectos.",
+		tech: ["React", "Tailwind CSS", "HTML5", "CSS3", "Vite"],
 		link: "https://github.com/pepvillalonga/portafolio",
 	},
 
