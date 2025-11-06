@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ca">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Horari DAW</title>
+		<style>
+			body {
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+					sans-serif;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 2em;
+				background-color: #f8f9fa;
+				color: #333;
+			}
+			table {
+				border-collapse: collapse;
+				box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+				width: 95%;
+				max-width: 1200px;
+			}
+			th,
+			td {
+				border: 1px solid #dee2e6;
+				padding: 10px 12px;
+				text-align: center;
+				font-size: 0.9em;
+			}
+			th {
+				background-color: #e9ecef;
+				font-weight: 600;
+			}
+			td {
+				background-color: #fff;
+			}
+			.module-info {
+				font-size: 0.8em;
+				color: #f8f9fa;
+				margin-top: 4px;
+			}
+			.digitalitzacio {
+				background-color: #d9534f;
+				color: white;
+			}
+			.itinerari {
+				background-color: #f0ad4e;
+				color: white;
+			}
+			.programacio {
+				background-color: #5cb85c;
+				color: white;
+			}
+			.sistemes {
+				background-color: #428bca;
+				color: white;
+			}
+			.llenguatges {
+				background-color: #9b59b6;
+				color: white;
+			}
+			.entorn {
+				background-color: #e082b2;
+				color: white;
+			}
+			.basedades {
+				background-color: #5bc0de;
+				color: white;
+			}
+			.tutoria {
+				background-color: #6c757d;
+				color: white;
+			}
+			.pati {
+				background-color: #f9e79f;
+				color: #333;
+				font-style: italic;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th>Dia</th>
+				<th>14:30 - 15:25</th>
+				<th>15:30 - 16:25</th>
+				<th>16:25 - 17:20</th>
+				<th>17:20 - 18:15</th>
+				<th>18:15 - 18:45</th>
+				<th>18:45 - 19:40</th>
+				<th>19:40 - 20:35</th>
+				<th>20:35 - 21:30</th>
+			</tr>
+			<tr>
+				<th>Dilluns</th>
+				<td></td>
+				<td class="digitalitzacio">Digitalització</td>
+				<td colspan="2" class="itinerari">Itinerari</td>
+				<td class="pati">Pati</td>
+				<td colspan="3" class="programacio">Programació</td>
+			</tr>
+			<tr>
+				<th>Dimarts</th>
+				<td></td>
+				<td colspan="2" class="sistemes">Sistemes</td>
+				<td class="programacio">Programació</td>
+				<td class="pati">Pati</td>
+				<td colspan="3" class="llenguatges">Llenguatge</td>
+			</tr>
+			<tr>
+				<th>Dimecres</th>
+				<td></td>
+				<td colspan="2" class="llenguatges">Llenguatge</td>
+				<td class="entorn">Entorn</td>
+				<td class="pati">Pati</td>
+				<td class="entorn">Entorn</td>
+				<td colspan="2" class="basedades">Bases de Dades</td>
+			</tr>
+			<tr>
+				<th>Dijous</th>
+				<td class="tutoria">Tutoria</td>
+				<td colspan="3" class="programacio">Programació</td>
+				<td class="pati">Pati</td>
+				<td class="entorn">Entorn</td>
+				<td colspan="2" class="basedades">Bases de Dades</td>
+			</tr>
+
+			<tr>
+				<th>Divendres</th>
+				<td></td>
+				<td colspan="3" class="basedades">Bases de Dades</td>
+				<td class="pati">Pati</td>
+				<td class="itinerari">Itinerari</td>
+				<td colspan="2" class="sistemes">Sistemes</td>
+			</tr>
+		</table>
+	</body>
+</html>
