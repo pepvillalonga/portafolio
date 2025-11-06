@@ -23,7 +23,7 @@ const projects = [
 		title: "Proyecto Portafolio",
 		description:
 			"Aqui esta el repositorio alberga el código de mi portafolio personal, una aplicación web construida con React para mostrar mis habilidades, experiencia y los proyectos.",
-		tech: ["React", "Tailwind CSS", "HTML5", "CSS3", "Vite"],
+		tech: ["React", "HTML5", "CSS3", "TypeScript", "Tailwind CSS"],
 		link: "https://github.com/pepvillalonga/portafolio",
 	},
 

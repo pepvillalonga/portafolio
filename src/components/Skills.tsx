@@ -2,8 +2,8 @@ import { Card } from "@/components/ui/card";
 
 const skills = [
 	{ category: "Frontend", items: ["JavaScript", "HTML5", "CSS3"] },
-	{ category: "Backend", items: ["PHP", "Java"] },
-	{ category: "Frameworks", items: ["Angular", "React"] },
+	{ category: "Backend", items: ["PHP", "Java", "TypeScript"] },
+	{ category: "Frameworks", items: ["Angular", "React", "Laravel"] },
 	{ category: "Databases", items: ["MongoDB", "MariaDB", "JSON"] },
 	{ category: "Tools", items: ["Git", "GitHub", "Synology NAS"] },
 ];
