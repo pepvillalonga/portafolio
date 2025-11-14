@@ -41,9 +41,9 @@ const Projects = () => {
 		<section id="projects" className="py-20 px-6 bg-muted/30">
 			<div className="max-w-6xl mx-auto">
 				<h2 className="text-4xl font-bold mb-12 text-center text-foreground">Proyectos</h2>
-				<div className="flex flex-col md:flex-row md:justify-center gap-6">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 					{projects.map((project) => (
-						<Card key={project.title} className="flex flex-col md:w-[320px]">
+						<Card key={project.title} className="flex flex-col">
 							<CardHeader>
 								<CardTitle className="text-foreground">{project.title}</CardTitle>
 								<CardDescription>{project.description}</CardDescription>
